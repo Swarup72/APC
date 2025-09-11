@@ -18,6 +18,7 @@ def append_file():
             file.write("This line is appended\n")
         print("Data appended to file")
     else:
+        
         print("File does not exist (create it first)")
 
 def delete_file():
